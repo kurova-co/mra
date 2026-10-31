@@ -1,0 +1,19 @@
+version_esquema: 0.1.0
+proyecto:
+  id: mra
+  nombre: modelo
+  descripcion: ''
+  zona_horaria: America/Bogota
+  etiquetas_costo:
+    mra: mra
+  responsables:
+    dueno_aplicacion:
+      - juan reyes
+    data_owner:
+      - juan reyes
+ambientes:
+  - id: des
+    nombre: desarrollo
+  - id: prod
+    nombre: produccion
+    productivo: true
